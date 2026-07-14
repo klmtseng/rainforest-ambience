@@ -1,0 +1,46 @@
+{
+  "description": "Measured from out/loops/rain_loop_90s_real.wav — butter 4th-order bandpass, rectify, uniform_filter1d(0.5s), trim 1s head/tail, Pearson correlation",
+  "measurement_method": "butter(4, [lo,hi], btype='bandpass') → np.abs → uniform_filter1d(int(0.5*sr)) → [sr:-sr] → std/mean for CV; np.corrcoef for corr",
+  "band_cv_targets": {
+    "125-250Hz": 0.254,
+    "250-500Hz": 0.173,
+    "500-1kHz":  0.168,
+    "1k-2kHz":   0.139,
+    "2k-4kHz":   0.158,
+    "4k-8kHz":   0.154
+  },
+  "band_cv_targets_raw": {
+    "125-250Hz": 0.2537,
+    "250-500Hz": 0.1727,
+    "500-1kHz":  0.1676,
+    "1k-2kHz":   0.1393,
+    "2k-4kHz":   0.1578,
+    "4k-8kHz":   0.1543
+  },
+  "cross_band_correlation": {
+    "bands": ["125-250Hz","250-500Hz","500-1kHz","1k-2kHz","2k-4kHz","4k-8kHz"],
+    "matrix": [
+      [1.000, 0.790, 0.750, 0.723, 0.706, 0.523],
+      [0.790, 1.000, 0.821, 0.771, 0.765, 0.715],
+      [0.750, 0.821, 1.000, 0.875, 0.821, 0.703],
+      [0.723, 0.771, 0.875, 1.000, 0.929, 0.784],
+      [0.706, 0.765, 0.821, 0.929, 1.000, 0.879],
+      [0.523, 0.715, 0.703, 0.784, 0.879, 1.000]
+    ],
+    "adjacent_band_pairs": {
+      "125-250 vs 250-500": 0.790,
+      "250-500 vs 500-1k":  0.821,
+      "500-1k vs 1k-2k":    0.875,
+      "1k-2k vs 2k-4k":     0.929,
+      "2k-4k vs 4k-8k":     0.879
+    }
+  },
+  "v3_cv_measured": {
+    "125-250Hz": 0.0786,
+    "250-500Hz": 0.0753,
+    "500-1kHz":  0.0777,
+    "1k-2kHz":   0.0656,
+    "2k-4kHz":   0.0699,
+    "4k-8kHz":   0.0696
+  }
+}

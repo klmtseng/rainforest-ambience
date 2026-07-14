@@ -1,0 +1,21 @@
+{
+  "rain": {
+    "intensity": 0.6,
+    "band_freqs_hz": [400, 1000, 2500, 6000, 10000],
+    "band_widths_hz": [200, 500, 800, 2000, 3000],
+    "drop_rate_hz": 80.0,
+    "drop_template_count": 40
+  },
+  "thunder": {
+    "event_rate_per_hour": 6,
+    "refractory_s": 30,
+    "distance_km_range": [0.3, 2.0],
+    "rumble_cutoff_hz": 120,
+    "reverb_tail_s": 3.0
+  },
+  "master": {
+    "sample_rate": 48000,
+    "seed": 42,
+    "duration_s": 60
+  }
+}

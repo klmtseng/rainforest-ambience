@@ -1,0 +1,21 @@
+{
+  "rain_v2": {
+    "intensity": 0.6,
+    "spectral_slope1_db_oct": -8.0,
+    "spectral_ref_f1_hz": 125.0,
+    "spectral_slope2_db_oct": -5.0,
+    "spectral_ref_f2_hz": 2000.0,
+    "drop_rate_hz": 600.0,
+    "drop_template_count": 80,
+    "drop_fc_range_hz": [1000.0, 5000.0],
+    "drop_decay_range_ms": [5.0, 30.0],
+    "drop_amp_lognormal_mu": -1.5,
+    "drop_amp_lognormal_sigma": 1.2,
+    "bed_drop_mix": [0.90, 0.10]
+  },
+  "master": {
+    "sample_rate": 48000,
+    "seed": 42,
+    "duration_s": 90
+  }
+}

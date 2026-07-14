@@ -1,0 +1,29 @@
+{
+  "_comment": "rain_v4 preset: extends v3 with per-band modulation params; v3 fields preserved",
+  "rain_v4": {
+    "intensity": 0.6,
+    "spectral_slope0_db_oct": -4.5,
+    "spectral_ref_f0_hz": 20.0,
+    "spectral_slope1_db_oct": -0.5,
+    "spectral_ref_f1_hz": 125.0,
+    "spectral_slope2_db_oct": -7.0,
+    "spectral_ref_f2_hz": 2000.0,
+    "drop_rate_hz": 800.0,
+    "drop_template_count": 80,
+    "drop_fc_range_hz": [500.0, 5000.0],
+    "drop_decay_range_ms": [5.0, 30.0],
+    "drop_amp_lognormal_mu": -1.5,
+    "drop_amp_lognormal_sigma": 1.30,
+    "bed_drop_mix": [0.75, 0.25],
+    "v4_sigma_common_db": 1.8,
+    "v4_tau_common_s": 3.0,
+    "v4_tau_indep_s": 2.5,
+    "v4_drop_rate_mod_db": 4.0,
+    "v4_loop_period_s": 90.0
+  },
+  "master": {
+    "sample_rate": 48000,
+    "seed": 42,
+    "duration_s": 90
+  }
+}

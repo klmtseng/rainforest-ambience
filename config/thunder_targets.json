@@ -1,0 +1,106 @@
+{
+  "_comment": "Thunder synthesis target statistics derived from real CC0/PD recordings. Measured 2026-07-14.",
+  "_sources": {
+    "far_rumble": {
+      "file": "thunder_real_rumble.wav",
+      "origin": "Tonitrus.ogg (Mysid, Public Domain, Wikimedia Commons)",
+      "url": "https://commons.wikimedia.org/wiki/File:Tonitrus.ogg",
+      "type": "far/distant rumble",
+      "dur_s": 32.23,
+      "note": "Recorded Finland 2007; predominantly sub-bass, very long tail"
+    },
+    "near_crack": {
+      "file": "thunder_real_crack.wav",
+      "origin": "sfx100v2_thunder_01.ogg (Kenney, CC0, OpenGameArt 100 CC0 SFX #2)",
+      "url": "https://opengameart.org/content/100-cc0-sfx-2",
+      "type": "near crack",
+      "dur_s": 5.26,
+      "note": "Short crack-type; mid-frequency dominant"
+    }
+  },
+  "far_rumble": {
+    "_description": "Target for far/distant thunder (distance_km >= 5.0). Match rumble type.",
+    "decay_to_minus30dB_s": 12.75,
+    "sub_bass_20_80Hz_pct": 62.8,
+    "mid_150_1500Hz_pct": 2.3,
+    "octave_bands_relative_dB_vs_150_4800Hz_total": {
+      "_note": "These are relative to 150-4800Hz sub-band total (not used in VT2.5 gate - see below)",
+      "150-300Hz": -7.5,
+      "300-600Hz": -7.1,
+      "600-1200Hz": -4.1,
+      "1200-2400Hz": -7.1,
+      "2400-4800Hz": -14.9
+    },
+    "octave_bands_relative_dB_vs_total": {
+      "_note": "These are relative to ALL-FREQ total power. Used in VT2.5 gate (fairer for sub-bass-dominant signals).",
+      "150-300Hz": -23.6,
+      "300-600Hz": -22.4,
+      "600-1200Hz": -19.6,
+      "1200-2400Hz": -23.3,
+      "2400-4800Hz": -31.7
+    },
+    "spectral_centroid_150_4kHz": 876,
+    "gate_targets": {
+      "decay_s_range": [6.0, 25.0],
+      "octave_band_diff_limit_dB": 5.0,
+      "freq_range_Hz": [150, 4000],
+      "note": "Synth need not exactly match 2.3% mid; gate checks octave shape in 150-4kHz"
+    }
+  },
+  "near_crack": {
+    "_description": "Target for near/close thunder (distance_km <= 3.0). Match crack type.",
+    "decay_to_minus30dB_s": 3.38,
+    "sub_bass_20_80Hz_pct": 2.9,
+    "mid_150_1500Hz_pct": 65.0,
+    "octave_bands_relative_dB_vs_150_4800Hz_total": {
+      "_note": "These are relative to 150-4800Hz sub-band total (not used in VT2.5 gate - see below)",
+      "150-300Hz": -0.6,
+      "300-600Hz": -7.1,
+      "600-1200Hz": -16.3,
+      "1200-2400Hz": -27.6,
+      "2400-4800Hz": -48.3
+    },
+    "octave_bands_relative_dB_vs_total": {
+      "_note": "These are relative to ALL-FREQ total power. VT2.5 only uses 300-600Hz band (index 1) for near thunder - other bands unreliable due to SFX bandlimiting.",
+      "150-300Hz": -2.5,
+      "300-600Hz": -9.0,
+      "600-1200Hz": -18.2,
+      "1200-2400Hz": -29.5,
+      "2400-4800Hz": -50.2
+    },
+    "spectral_centroid_150_4kHz": 246,
+    "gate_targets": {
+      "decay_s_range": [1.5, 10.0],
+      "octave_band_diff_limit_dB": 5.0,
+      "freq_range_Hz": [150, 4000],
+      "note": "Near thunder: mid band dominant; crack gives fast transient"
+    }
+  },
+  "synthesized_baseline_before_tuning": {
+    "_measured": "2026-07-14 pre-tuning",
+    "near_2p5km": {
+      "decay_to_minus30dB_s": 6.12,
+      "sub_bass_20_80Hz_pct": 53.1,
+      "mid_150_1500Hz_pct": 34.0,
+      "octave_bands_150_4kHz": {
+        "150-300Hz": -8.4,
+        "300-600Hz": -6.2,
+        "600-1200Hz": -3.4,
+        "1200-2400Hz": -7.7,
+        "2400-4800Hz": -20.9
+      }
+    },
+    "far_5km": {
+      "decay_to_minus30dB_s": 5.62,
+      "sub_bass_20_80Hz_pct": 64.6,
+      "mid_150_1500Hz_pct": 28.8,
+      "octave_bands_150_4kHz": {
+        "150-300Hz": -9.8,
+        "300-600Hz": -5.5,
+        "600-1200Hz": -2.9,
+        "1200-2400Hz": -9.4,
+        "2400-4800Hz": -24.9
+      }
+    }
+  }
+}

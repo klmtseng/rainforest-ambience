@@ -1,0 +1,235 @@
+{
+  "generated": "2026-07-13",
+  "note": "All entries verified CC0 by WebFetch on asset page. SHA256 computed from downloaded raw files.",
+  "sources": [
+    {
+      "id": "oga_crickets_loopable",
+      "category": "insect",
+      "asset_page": "https://opengameart.org/content/crickets-ambient-noise-loopable",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "evidence_url": "https://opengameart.org/content/crickets-ambient-noise-loopable",
+      "verified_by": "WebFetch 2026-07-13: page shows CC0 badge; author Wolfgang_/Ted Kerr; credit not required",
+      "files": [
+        {
+          "url": "https://opengameart.org/sites/default/files/crickets_1.mp3",
+          "raw_filename": "crickets_1.mp3",
+          "curated_filename": "crickets_loopable.wav",
+          "sha256": "5b5bd1f744087888c5623543c3ff80be9c2ce106093993e7c8a8492b0280b2c0"
+        }
+      ]
+    },
+    {
+      "id": "oga_crickets_calm",
+      "category": "insect",
+      "asset_page": "https://opengameart.org/content/crickets-general-calm-ambient-music",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "evidence_url": "https://opengameart.org/content/crickets-general-calm-ambient-music",
+      "verified_by": "WebFetch 2026-07-13: page states dual CC-BY3.0+CC0; CC0 option confirmed",
+      "files": [
+        {
+          "url": "https://opengameart.org/sites/default/files/crickets_3.mp3",
+          "raw_filename": "crickets_3.mp3",
+          "curated_filename": "crickets_calm_long.wav",
+          "sha256": "0c78cc4e7bfaaac17e363045479465d64060af4c595799e8dc263494512ad6fb"
+        },
+        {
+          "url": "https://opengameart.org/sites/default/files/crickets.wav",
+          "raw_filename": "crickets_calm.wav",
+          "curated_filename": "crickets_calm_stereo.wav",
+          "sha256": "62f5010334b3a1974a54538c45598bee6f8bc03ac5a28472b6ec37eb3ed67a6a"
+        }
+      ]
+    },
+    {
+      "id": "oga_birds_crickets_pack",
+      "category": "insect+bird",
+      "asset_page": "https://opengameart.org/content/birdcricketfrog-and-mosquito-sounds",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "evidence_url": "https://opengameart.org/content/birdcricketfrog-and-mosquito-sounds",
+      "verified_by": "WebFetch 2026-07-13: page shows CC0; synthetic sounds from as3sfxr",
+      "notes": "Short synthetic sounds (<5s), included in raw/ but not curated/ (fail duration filter)",
+      "files": [
+        {
+          "url": "https://opengameart.org/sites/default/files/birdsCrickets.zip",
+          "raw_filename": "birdsCrickets.zip",
+          "curated_filename": null,
+          "sha256": "9f815b60c16f9ef8052d4c6f5bd86c4f0ce56541b05400347f7032cd06947523"
+        }
+      ]
+    },
+    {
+      "id": "oga_grasshopper",
+      "category": "insect",
+      "asset_page": "https://opengameart.org/content/grasshopper",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "evidence_url": "https://opengameart.org/content/grasshopper",
+      "verified_by": "WebFetch 2026-07-13: page states CC0 under Licensing section",
+      "notes": "1.85s ogg, fails duration filter. In raw/ only.",
+      "files": [
+        {
+          "url": "https://opengameart.org/sites/default/files/grasshopper.zip",
+          "raw_filename": "grasshopper.zip",
+          "curated_filename": null,
+          "sha256": "aacb58a63870fb04de82251779d7ce3c0560b345c0382df2ddc14fbdd997bc21"
+        }
+      ]
+    },
+    {
+      "id": "oga_ambient_birds",
+      "category": "bird",
+      "asset_page": "https://opengameart.org/content/ambient-bird-sounds",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "evidence_url": "https://opengameart.org/content/ambient-bird-sounds",
+      "verified_by": "WebFetch 2026-07-13: CC0 badge; creator isaiah658",
+      "files": [
+        {
+          "url": "https://opengameart.org/sites/default/files/birds-isaiah658_0.ogg",
+          "raw_filename": "birds-isaiah658_0.ogg",
+          "curated_filename": "birds_isaiah658.wav",
+          "sha256": "359e4e3f9da9d75aac64cede511c7e3ef8b461f9d9f8c230f8f80e44c4b3e35f"
+        }
+      ]
+    },
+    {
+      "id": "oga_bird_chirping",
+      "category": "bird",
+      "asset_page": "https://opengameart.org/content/bird-chirping-sounds",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "evidence_url": "https://opengameart.org/content/bird-chirping-sounds",
+      "verified_by": "WebFetch 2026-07-13: CC0 badge; backyard bird recording",
+      "notes": "3s files, fail duration filter. In raw/ only.",
+      "files": [
+        {
+          "url": "https://opengameart.org/sites/default/files/birdchirping071414_0.mp3",
+          "raw_filename": "birdchirping071414_0.mp3",
+          "curated_filename": null,
+          "sha256": "40310829b1f5a295731a974f7da783be5a46e77b9859a930cce19eca13430cb6"
+        },
+        {
+          "url": "https://opengameart.org/sites/default/files/birdchirping071414.wav",
+          "raw_filename": "birdchirping071414.wav",
+          "curated_filename": null,
+          "sha256": "bc6e28bd823b653b2abf3384d4147718603af6bcd98e26166345df71a61eeb08"
+        }
+      ]
+    },
+    {
+      "id": "oga_seagull_ambient",
+      "category": "bird",
+      "asset_page": "https://opengameart.org/content/solo-seagull-sound-effects",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "evidence_url": "https://opengameart.org/content/solo-seagull-sound-effects",
+      "verified_by": "WebFetch 2026-07-13: CC0; no credit required",
+      "notes": "Short (<5s) ambient seagull calls, fail duration filter. In raw/ only.",
+      "files": [
+        {
+          "url": "https://opengameart.org/sites/default/files/Seagull%20Ambient%201.wav",
+          "raw_filename": "Seagull_Ambient_1.wav",
+          "curated_filename": null,
+          "sha256": null
+        },
+        {
+          "url": "https://opengameart.org/sites/default/files/Seagull%20Ambient%202.wav",
+          "raw_filename": "Seagull_Ambient_2.wav",
+          "curated_filename": null,
+          "sha256": null
+        },
+        {
+          "url": "https://opengameart.org/sites/default/files/Seagull%20Ambient%203.wav",
+          "raw_filename": "Seagull_Ambient_3.wav",
+          "curated_filename": null,
+          "sha256": null
+        },
+        {
+          "url": "https://opengameart.org/sites/default/files/Seagull%20Ambient%204.wav",
+          "raw_filename": "Seagull_Ambient_4.wav",
+          "curated_filename": null,
+          "sha256": null
+        },
+        {
+          "url": "https://opengameart.org/sites/default/files/Seagull%20Ambient%205.wav",
+          "raw_filename": "Seagull_Ambient_5.wav",
+          "curated_filename": null,
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "id": "oga_birds_wind",
+      "category": "bird",
+      "asset_page": "https://opengameart.org/content/birds-and-wind-ambient-birds-wind-and-synth",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "evidence_url": "https://opengameart.org/content/birds-and-wind-ambient-birds-wind-and-synth",
+      "verified_by": "WebFetch 2026-07-13: CC0 badge; author Spring Spring",
+      "files": [
+        {
+          "url": "https://opengameart.org/sites/default/files/Birds%2C%20Wind%2C%20Synth%20%28Final%20B%20Mix%29_0.ogg",
+          "raw_filename": "Birds_Wind_Synth_FinalB.ogg",
+          "curated_filename": "birds_wind_finalB.wav",
+          "sha256": "f07d688e8c6a82e58af4a5f9295d5c79401fc3fb3840fb34699779be50058821"
+        },
+        {
+          "url": "https://opengameart.org/sites/default/files/Birds%2C%20Wind%2C%20Synth%20%28Final%29_0.ogg",
+          "raw_filename": "Birds_Wind_Synth_Final.ogg",
+          "curated_filename": "birds_wind_final.wav",
+          "sha256": "42462646e53bc8c1d3508e9c19e5b2bc2c42b8d99095010dafbdff1ae6875f7b"
+        },
+        {
+          "url": "https://opengameart.org/sites/default/files/Birds%20and%20Wind%20-%20Ambient_1.ogg",
+          "raw_filename": "Birds_and_Wind_Ambient.ogg",
+          "curated_filename": "birds_wind_ambient.wav",
+          "sha256": "28f99f536a0772d80052f03bcb22c9ed8fd7c6e4db7f2e8356efcf26a8e24f01"
+        },
+        {
+          "url": "https://opengameart.org/sites/default/files/Birds%2C%20Wind%20and%20Synth%20V2_0.ogg",
+          "raw_filename": "Birds_Wind_Synth_V2.ogg",
+          "curated_filename": "birds_wind_v2.wav",
+          "sha256": "e2e7cb0d13bc790c237e39d1dabc69b7aea6a1e85305f4538e816bac542a9df6"
+        }
+      ]
+    },
+    {
+      "id": "oga_dark_rainy_night",
+      "category": "ambient",
+      "asset_page": "https://opengameart.org/content/rain-and-thunders",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "evidence_url": "https://opengameart.org/content/rain-and-thunders",
+      "verified_by": "WebFetch 2026-07-13: CC0; rain recording + thunder plugins; 141 favorites",
+      "files": [
+        {
+          "url": "https://opengameart.org/sites/default/files/Dark_Rainy_Night%28ambience%29.ogg",
+          "raw_filename": "Dark_Rainy_Night_ambience.ogg",
+          "curated_filename": "dark_rainy_night.wav",
+          "sha256": "115c233f9f8bc793f12723030aaae6cfda923e565c32a8e54bb274b2a8199ee1"
+        }
+      ]
+    },
+    {
+      "id": "oga_forest_birds",
+      "category": "bird",
+      "asset_page": "https://opengameart.org/content/forest-bird-sounds",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "evidence_url": "https://opengameart.org/content/forest-bird-sounds",
+      "verified_by": "WebFetch 2026-07-13: CC0 badge confirmed",
+      "notes": "Raw/*.wav files are 8kHz, fail sample_rate filter. forest_birds.7z in raw/.",
+      "files": [
+        {
+          "url": "https://opengameart.org/sites/default/files/forest_birds.7z",
+          "raw_filename": "forest_birds.7z",
+          "curated_filename": null,
+          "sha256": null
+        }
+      ]
+    }
+  ]
+}
